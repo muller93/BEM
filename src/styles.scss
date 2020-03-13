@@ -1,0 +1,18 @@
+/* You can add global styles to this file, and also import other style files */
+.btn { /*kívülről definiáljuk a btn classt, így könnyebb használni és egységes kinézetet biztosít*/
+  border-radius: 50px;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 20px;
+  display: inline-block;
+  border: none;
+  transition: all 0.4s ease 0s;
+  &__add {
+    color: #fff !important;
+    background: #60a3bc;
+  }
+  &__delete {
+    color: black;
+    background-color: red;
+  }
+}

@@ -1,0 +1,11 @@
+.box-theme { /*block*/
+  width: 100px;
+  height: 100px;
+  margin-top: 10px;
+}
+:host-context(.red) .box-theme { /*red paramétert kap*/
+  background: red;
+}
+:host-context(.blue) .box-theme { /*blue paramétert kap*/
+  background: blue;
+}

@@ -1,0 +1,7 @@
+.btn {
+  &__add--smaller { /*helyben hozzuk létre a modifiert*/
+    padding: 5px;
+    font-size: 10px;
+    background-color: brown;
+  }
+}

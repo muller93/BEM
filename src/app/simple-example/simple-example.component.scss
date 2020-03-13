@@ -1,0 +1,37 @@
+.main { /*block*/
+  color: brown;
+  &__header { /*element*/
+    color: blue;
+    font-size: 40px;
+  }
+  &__header--red { /*modifier*/
+    color: red;
+  }
+
+  &__body {
+    font-weight: normal;
+    background-color: red;
+    font-size: 12px;
+    font-family: Consolas;
+  }
+  &__body--big {
+    font-size: 30px;
+  }
+  &__paragraph {
+    font-weight: lighter;
+    font-size: 18px;
+    padding-left: 50px;
+    &--plus-padding {
+      padding: 120px;
+    }
+  }
+
+  &__border {
+    width: 80%;
+    border-bottom: yellowgreen 1px solid;
+    &--green {
+      border-bottom: cornflowerblue 1px solid;
+    }
+  }
+
+}

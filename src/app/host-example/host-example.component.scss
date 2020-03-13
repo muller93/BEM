@@ -1,0 +1,25 @@
+/*
+csak a szülő p taget módosítja
+*/
+:host p {
+  background-color: yellowgreen;
+}
+/*
+gyerek is látja
+*/
+/*
+:host ::ng-deep p {
+  background-color: yellowgreen;
+}
+*/
+
+/*
+mindenhol módosítja
+*/
+/*
+::ng-deep {
+  p {
+    background-color: yellowgreen;
+  }
+}
+*/
